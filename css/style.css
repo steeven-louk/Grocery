@@ -288,10 +288,9 @@ section {
   display: none;
 }
 
-.space {
-  min-height: 50vh;
-}
-
+/*.space{
+    min-height: 30vh;
+}*/
 .footer {
   background: #f3f3f3;
 }
@@ -341,6 +340,20 @@ section {
   padding: 1rem 1.2rem;
   font-size: 1.6rem;
   color: #222;
+  margin: 1rem 0;
+  text-transform: none;
+}
+
+.footer .box-container .box .payment {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.credit {
+  text-align: center;
+  background: #bac34e;
+  color: #fff;
+  font-size: 2rem;
 }
 
 @media (max-width: 991px) {

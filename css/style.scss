@@ -304,9 +304,9 @@ section{
 
 
 
-.space{
-    min-height: 50vh;
-}
+/*.space{
+    min-height: 30vh;
+}*/
 
 .footer{
     background: $light-bg;
@@ -352,12 +352,25 @@ section{
                 padding: 1rem 1.2rem;
                 font-size: 1.6rem;
                 color: $black;
+                margin: 1rem 0;
+                text-transform: none;
+            }
+
+            .payment{
+                width: 100%;
+                margin-top: 2rem;
             }
         }
     }
 }
 
 
+.credit{
+    text-align: center;
+    background: $green;
+    color: $white;
+    font-size: 2rem;
+}
 
 
 
